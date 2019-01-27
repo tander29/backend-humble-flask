@@ -4,12 +4,20 @@ Purpose: introduction to flask, routing, and rendering templates via a database(
 
 ## How to start in virtualenv:
 
-- \$flask run
-
-in debug mode without setting env variables:
+install virtual env:
 
 - \$pipenv install
+
+navigate to virtualenv
+
 - \$pipenv shell
+
+set env variables, if want in debug mode, then:
+
+- \$flask run
+
+without setting env variables and in debug mode:
+
 - \$python app.py
 
 ## Routes
