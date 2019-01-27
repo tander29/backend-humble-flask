@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travis Stuff</title>
+  </head>
+
+  <body>
+    <div>Hello all tinydb recipe names</div>
+    <ul id="allStuff">
+      {% for item in data %}
+      <li>{{ item.name }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
